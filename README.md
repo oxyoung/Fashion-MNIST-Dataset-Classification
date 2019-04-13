@@ -7,6 +7,8 @@ The finished tasks are as follow:
 3. Profile the training process by collecting runtime statistics.
 4. Randomly Visualize 400 images from the dataset in TensorBoard using t-SNE and PCA.
 
-Besides, the following addtional tasks are so done:
+Besides, the following addtional tasks are also done:
 1. Compare three gradient methods. (Adam, GradientDescent, Momentum)
-2. Compare two regularization methods. (Batch Normalization and drop out)
+2. Compare two regularization methods. (Drop out and Batch Normalization)
+
+
