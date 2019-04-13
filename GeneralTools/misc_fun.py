@@ -39,6 +39,9 @@ flags.DEFINE_string(
 flags.DEFINE_string(
     'VISUALIZATION_FOLDER', os.path.join(FLAGS.DEFAULT_OUT, 'DataVisual'),
     'Default folder for visualization files.')
+flags.DEFINE_string(
+    'EXCEL_FOLDER', 'C:/Users/oxyoung/Desktop/Project1/Plots/traning_data_excel/',
+    'Default folder for Excel Data.')
 
 # model hyper-parameters
 # Optimizer options: GradientDescent, Adam, Momentum
