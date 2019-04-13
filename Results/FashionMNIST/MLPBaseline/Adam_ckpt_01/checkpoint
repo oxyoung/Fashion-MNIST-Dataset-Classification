@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/oxyoung/Desktop/Project1/Results/FashionMNIST\\MLPBaseline\\Adam_ckpt_01/project1_trained_model"
+all_model_checkpoint_paths: "C:/Users/oxyoung/Desktop/Project1/Results/FashionMNIST\\MLPBaseline\\Adam_ckpt_01/project1_trained_model"

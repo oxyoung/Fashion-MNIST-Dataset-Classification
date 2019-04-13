@@ -1,0 +1,1615 @@
+{
+    "traceEvents": [
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 0,
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 1,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 2,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675688,
+            "dur": 11,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675720,
+            "dur": 12,
+            "args": {
+                "name": "Training/Accuracy/Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675735,
+            "dur": 3,
+            "args": {
+                "name": "Training/Accuracy/ArgMax_1/dimension",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675740,
+            "dur": 7,
+            "args": {
+                "name": "dropout_1/random_uniform/sub",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675728,
+            "dur": 19,
+            "args": {
+                "name": "layer2/biases/biases",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675734,
+            "dur": 16,
+            "args": {
+                "name": "layer2/weights/weights",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675750,
+            "dur": 5,
+            "args": {
+                "name": "Training/Accuracy/accuracy_1/tags",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675738,
+            "dur": 18,
+            "args": {
+                "name": "layer1/biases/biases",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675758,
+            "dur": 2,
+            "args": {
+                "name": "layer2/biases/biases/read",
+                "op": "Identity",
+                "input0": "layer2/biases/biases"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/biases/biases",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675747,
+            "id": 0
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/biases/biases",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675758,
+            "id": 0
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675760,
+            "dur": 3,
+            "args": {
+                "name": "layer1/biases/biases/read",
+                "op": "Identity",
+                "input0": "layer1/biases/biases"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675756,
+            "id": 1
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675760,
+            "id": 1
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675755,
+            "dur": 10,
+            "args": {
+                "name": "layer2/weights/weights/read",
+                "op": "Identity",
+                "input0": "layer2/weights/weights"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223675748,
+            "dur": 16,
+            "args": {
+                "name": "layer1/weights/weights",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675757,
+            "dur": 12,
+            "args": {
+                "name": "Training/Loss_Function/add/y",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675770,
+            "dur": 4,
+            "args": {
+                "name": "layer1/weights/weights/read",
+                "op": "Identity",
+                "input0": "layer1/weights/weights"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223675764,
+            "id": 2
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675770,
+            "id": 2
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675772,
+            "dur": 7,
+            "args": {
+                "name": "Training/Loss_Function/Loss/train/tags",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675782,
+            "dur": 5,
+            "args": {
+                "name": "layer2/biases/layer2_biases/tag",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675794,
+            "dur": 5,
+            "args": {
+                "name": "layer2/weights/layer2_weights/tag",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675808,
+            "dur": 2,
+            "args": {
+                "name": "layer1/biases/layer1_biases/tag",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675814,
+            "dur": 5,
+            "args": {
+                "name": "layer1/weights/layer1_weights/tag",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "HistogramSummary",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675793,
+            "dur": 31,
+            "args": {
+                "name": "layer2/biases/layer2_biases",
+                "op": "HistogramSummary",
+                "input0": "layer2/biases/layer2_biases/tag",
+                "input1": "layer2/biases/biases/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/biases/layer2_biases/tag",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675787,
+            "id": 3
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/biases/layer2_biases/tag",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675793,
+            "id": 3
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/biases/biases/read",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675760,
+            "id": 4
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/biases/biases/read",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675793,
+            "id": 4
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675823,
+            "dur": 7,
+            "args": {
+                "name": "_arg_Inputs/x_input_0_0",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675835,
+            "dur": 4,
+            "args": {
+                "name": "_arg_Inputs/y_input_0_1",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675845,
+            "dur": 2,
+            "args": {
+                "name": "_arg_Placeholder_0_2",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "HistogramSummary",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675814,
+            "dur": 46,
+            "args": {
+                "name": "layer1/biases/layer1_biases",
+                "op": "HistogramSummary",
+                "input0": "layer1/biases/layer1_biases/tag",
+                "input1": "layer1/biases/biases/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/biases/layer1_biases/tag",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675810,
+            "id": 5
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/biases/layer1_biases/tag",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675814,
+            "id": 5
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases/read",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675763,
+            "id": 6
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases/read",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675814,
+            "id": 6
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sub",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675850,
+            "dur": 19,
+            "args": {
+                "name": "sub",
+                "op": "Sub",
+                "input0": "dropout_1/random_uniform/sub",
+                "input1": "_arg_Placeholder_0_2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sub",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675873,
+            "dur": 3,
+            "args": {
+                "name": "dropout/sub",
+                "op": "Sub",
+                "input0": "dropout_1/random_uniform/sub",
+                "input1": "sub"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675843,
+            "dur": 170,
+            "args": {
+                "name": "Training/Accuracy/ArgMax_1",
+                "op": "ArgMax",
+                "input0": "_arg_Inputs/y_input_0_1",
+                "input1": "Training/Accuracy/ArgMax_1/dimension"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/y_input_0_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675839,
+            "id": 7
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/y_input_0_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675843,
+            "id": 7
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675738,
+            "id": 8
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675843,
+            "id": 8
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "HistogramSummary",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675804,
+            "dur": 265,
+            "args": {
+                "name": "layer2/weights/layer2_weights",
+                "op": "HistogramSummary",
+                "input0": "layer2/weights/layer2_weights/tag",
+                "input1": "layer2/weights/weights/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/weights/layer2_weights/tag",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675799,
+            "id": 9
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/weights/layer2_weights/tag",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675804,
+            "id": 9
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/weights/weights/read",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675765,
+            "id": 10
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/weights/weights/read",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675804,
+            "id": 10
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "HistogramSummary",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223675822,
+            "dur": 14537,
+            "args": {
+                "name": "layer1/weights/layer1_weights",
+                "op": "HistogramSummary",
+                "input0": "layer1/weights/layer1_weights/tag",
+                "input1": "layer1/weights/weights/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weights/layer1_weights/tag",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675819,
+            "id": 11
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weights/layer1_weights/tag",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223675822,
+            "id": 11
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights/read",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675774,
+            "id": 12
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights/read",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223675822,
+            "id": 12
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 1,
+            "tid": 5,
+            "ts": 1555151223675837,
+            "dur": 26534,
+            "args": {
+                "name": "layer1/weight_plus_bias/MatMul",
+                "op": "MatMul",
+                "input0": "_arg_Inputs/x_input_0_0",
+                "input1": "layer1/weights/weights/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/x_input_0_0",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675830,
+            "id": 13
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/x_input_0_0",
+            "pid": 1,
+            "tid": 5,
+            "ts": 1555151223675837,
+            "id": 13
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights/read",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675774,
+            "id": 14
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weights/weights/read",
+            "pid": 1,
+            "tid": 5,
+            "ts": 1555151223675837,
+            "id": 14
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223702394,
+            "dur": 1772,
+            "args": {
+                "name": "layer1/weight_plus_bias/add",
+                "op": "Add",
+                "input0": "layer1/weight_plus_bias/MatMul",
+                "input1": "layer1/biases/biases/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weight_plus_bias/MatMul",
+            "pid": 1,
+            "tid": 5,
+            "ts": 1555151223702371,
+            "id": 15
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weight_plus_bias/MatMul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223702394,
+            "id": 15
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases/read",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675763,
+            "id": 16
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/biases/biases/read",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223702394,
+            "id": 16
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sigmoid",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223704178,
+            "dur": 598,
+            "args": {
+                "name": "layer1/Sigmoid",
+                "op": "Sigmoid",
+                "input0": "layer1/weight_plus_bias/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223704792,
+            "dur": 17,
+            "args": {
+                "name": "dropout/Shape",
+                "op": "Shape",
+                "input0": "layer1/Sigmoid"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223704809,
+            "dur": 6213,
+            "args": {
+                "name": "dropout/truediv",
+                "op": "RealDiv",
+                "input0": "layer1/Sigmoid",
+                "input1": "dropout/sub"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/Sigmoid",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223704776,
+            "id": 17
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/Sigmoid",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223704809,
+            "id": 17
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dropout/sub",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675876,
+            "id": 18
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dropout/sub",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223704809,
+            "id": 18
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223704812,
+            "dur": 7424,
+            "args": {
+                "name": "dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform",
+                "input0": "dropout/Shape"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223712252,
+            "dur": 690,
+            "args": {
+                "name": "dropout/add",
+                "op": "Add",
+                "input0": "dropout/sub",
+                "input1": "dropout/random_uniform/RandomUniform"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223712949,
+            "dur": 418,
+            "args": {
+                "name": "dropout/Floor",
+                "op": "Floor",
+                "input0": "dropout/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223713370,
+            "dur": 2832,
+            "args": {
+                "name": "dropout/mul",
+                "op": "Mul",
+                "input0": "dropout/truediv",
+                "input1": "dropout/Floor"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dropout/truediv",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223711022,
+            "id": 19
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dropout/truediv",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223713370,
+            "id": 19
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223716213,
+            "dur": 4682,
+            "args": {
+                "name": "layer2/weight_plus_bias/MatMul",
+                "op": "MatMul",
+                "input0": "dropout/mul",
+                "input1": "layer2/weights/weights/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/weights/weights/read",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675765,
+            "id": 20
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/weights/weights/read",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223716213,
+            "id": 20
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223720921,
+            "dur": 166,
+            "args": {
+                "name": "layer2/weight_plus_bias/add",
+                "op": "Add",
+                "input0": "layer2/weight_plus_bias/MatMul",
+                "input1": "layer2/biases/biases/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Softmax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721092,
+            "dur": 307,
+            "args": {
+                "name": "layer2/Softmax",
+                "op": "Softmax",
+                "input0": "layer2/weight_plus_bias/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721407,
+            "dur": 11,
+            "args": {
+                "name": "dropout_1/Shape",
+                "op": "Shape",
+                "input0": "layer2/Softmax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721424,
+            "dur": 55,
+            "args": {
+                "name": "dropout_1/truediv",
+                "op": "RealDiv",
+                "input0": "layer2/Softmax",
+                "input1": "dropout/sub"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721420,
+            "dur": 306,
+            "args": {
+                "name": "dropout_1/random_uniform/RandomUniform",
+                "op": "RandomUniform",
+                "input0": "dropout_1/Shape"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dropout_1/Shape",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721418,
+            "id": 21
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dropout_1/Shape",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721420,
+            "id": 21
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721733,
+            "dur": 39,
+            "args": {
+                "name": "dropout_1/add",
+                "op": "Add",
+                "input0": "dropout/sub",
+                "input1": "dropout_1/random_uniform/RandomUniform"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dropout_1/random_uniform/RandomUniform",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721726,
+            "id": 22
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dropout_1/random_uniform/RandomUniform",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721733,
+            "id": 22
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721774,
+            "dur": 21,
+            "args": {
+                "name": "dropout_1/Floor",
+                "op": "Floor",
+                "input0": "dropout_1/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721797,
+            "dur": 50,
+            "args": {
+                "name": "dropout_1/mul",
+                "op": "Mul",
+                "input0": "dropout_1/truediv",
+                "input1": "dropout_1/Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721852,
+            "dur": 52,
+            "args": {
+                "name": "Training/Loss_Function/add",
+                "op": "Add",
+                "input0": "dropout_1/mul",
+                "input1": "Training/Loss_Function/add/y"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/add/y",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223675769,
+            "id": 23
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/add/y",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721852,
+            "id": 23
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721856,
+            "dur": 106,
+            "args": {
+                "name": "Training/Accuracy/ArgMax",
+                "op": "ArgMax",
+                "input0": "dropout_1/mul",
+                "input1": "Training/Accuracy/ArgMax_1/dimension"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "dropout_1/mul",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721847,
+            "id": 24
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "dropout_1/mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721856,
+            "id": 24
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675738,
+            "id": 25
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721856,
+            "id": 25
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Log",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721910,
+            "dur": 61,
+            "args": {
+                "name": "Training/Loss_Function/Log",
+                "op": "Log",
+                "input0": "Training/Loss_Function/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721974,
+            "dur": 47,
+            "args": {
+                "name": "Training/Accuracy/Equal",
+                "op": "Equal",
+                "input0": "Training/Accuracy/ArgMax",
+                "input1": "Training/Accuracy/ArgMax_1"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721962,
+            "id": 26
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721974,
+            "id": 26
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223676013,
+            "id": 27
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721974,
+            "id": 27
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721974,
+            "dur": 46,
+            "args": {
+                "name": "Training/Loss_Function/mul",
+                "op": "Mul",
+                "input0": "_arg_Inputs/y_input_0_1",
+                "input1": "Training/Loss_Function/Log"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/y_input_0_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675839,
+            "id": 28
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_Inputs/y_input_0_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721974,
+            "id": 28
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Log",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223721971,
+            "id": 29
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Log",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223721974,
+            "id": 29
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722024,
+            "dur": 56,
+            "args": {
+                "name": "Training/Accuracy/Cast",
+                "op": "Cast",
+                "input0": "Training/Accuracy/Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722082,
+            "dur": 12,
+            "args": {
+                "name": "Training/Accuracy/accuracy",
+                "op": "Mean",
+                "input0": "Training/Accuracy/Cast",
+                "input1": "Training/Accuracy/Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Sum",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223722031,
+            "dur": 76,
+            "args": {
+                "name": "Training/Loss_Function/Sum",
+                "op": "Sum",
+                "input0": "Training/Loss_Function/mul",
+                "input1": "Training/Accuracy/ArgMax_1/dimension"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675738,
+            "id": 30
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/ArgMax_1/dimension",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223722031,
+            "id": 30
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Neg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722109,
+            "dur": 4,
+            "args": {
+                "name": "Training/Loss_Function/Neg",
+                "op": "Neg",
+                "input0": "Training/Loss_Function/Sum"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Sum",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223722107,
+            "id": 31
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Sum",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722109,
+            "id": 31
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ScalarSummary",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223722096,
+            "dur": 17,
+            "args": {
+                "name": "Training/Accuracy/accuracy_1",
+                "op": "ScalarSummary",
+                "input0": "Training/Accuracy/accuracy_1/tags",
+                "input1": "Training/Accuracy/accuracy"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy_1/tags",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223675755,
+            "id": 32
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy_1/tags",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223722096,
+            "id": 32
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722094,
+            "id": 33
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223722096,
+            "id": 33
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722116,
+            "dur": 7,
+            "args": {
+                "name": "Training/Loss_Function/Mean",
+                "op": "Mean",
+                "input0": "Training/Loss_Function/Neg",
+                "input1": "Training/Accuracy/Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ScalarSummary",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722125,
+            "dur": 8,
+            "args": {
+                "name": "Training/Loss_Function/Loss/train",
+                "op": "ScalarSummary",
+                "input0": "Training/Loss_Function/Loss/train/tags",
+                "input1": "Training/Loss_Function/Mean"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Loss/train/tags",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675779,
+            "id": 34
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Loss_Function/Loss/train/tags",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722125,
+            "id": 34
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MergeSummary",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "dur": 43,
+            "args": {
+                "name": "Merge_1/MergeSummary",
+                "op": "MergeSummary",
+                "input0": "layer1/weights/layer1_weights",
+                "input1": "layer1/biases/layer1_biases",
+                "input2": "layer2/weights/layer2_weights",
+                "input3": "layer2/biases/layer2_biases",
+                "input4": "Training/Loss_Function/Loss/train",
+                "input5": "Training/Accuracy/accuracy_1"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/weights/layer1_weights",
+            "pid": 1,
+            "tid": 4,
+            "ts": 1555151223690359,
+            "id": 35
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/weights/layer1_weights",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "id": 35
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer1/biases/layer1_biases",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223675860,
+            "id": 36
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer1/biases/layer1_biases",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "id": 36
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/weights/layer2_weights",
+            "pid": 1,
+            "tid": 3,
+            "ts": 1555151223676069,
+            "id": 37
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/weights/layer2_weights",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "id": 37
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "layer2/biases/layer2_biases",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1555151223675824,
+            "id": 38
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "layer2/biases/layer2_biases",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "id": 38
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy_1",
+            "pid": 1,
+            "tid": 2,
+            "ts": 1555151223722113,
+            "id": 39
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Training/Accuracy/accuracy_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722135,
+            "id": 39
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1555151223722181,
+            "dur": 6,
+            "args": {
+                "name": "_retval_Merge_1/MergeSummary_0_0",
+                "op": "_Retval",
+                "input0": "Merge_1/MergeSummary"
+            }
+        }
+    ]
+}

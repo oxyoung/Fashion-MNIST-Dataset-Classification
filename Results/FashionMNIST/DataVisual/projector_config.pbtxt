@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "em_data:0"
+  metadata_path: "C:/Users/oxyoung/Desktop/Project1/Results/FashionMNIST\\DataVisual\\Fashionmnist_label.tsv"
+  sprite {
+    image_path: "C:/Users/oxyoung/Desktop/Project1/Results/FashionMNIST\\DataVisual\\Fashionmnist.png"
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}

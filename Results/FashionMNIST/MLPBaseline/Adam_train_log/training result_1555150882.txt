@@ -1,0 +1,121 @@
+Adding run metadata for epoch:5
+Epoch: 5, Accuracy: 0.829, Loss train: 0.443, Loss test: 0.474
+Adding run metadata for epoch:10
+Epoch: 10, Accuracy: 0.849, Loss train: 0.383, Loss test: 0.420
+Adding run metadata for epoch:15
+Epoch: 15, Accuracy: 0.857, Loss train: 0.354, Loss test: 0.400
+Adding run metadata for epoch:20
+Epoch: 20, Accuracy: 0.858, Loss train: 0.337, Loss test: 0.387
+Adding run metadata for epoch:25
+Epoch: 25, Accuracy: 0.867, Loss train: 0.315, Loss test: 0.369
+Adding run metadata for epoch:30
+Epoch: 30, Accuracy: 0.871, Loss train: 0.300, Loss test: 0.358
+Adding run metadata for epoch:35
+Epoch: 35, Accuracy: 0.871, Loss train: 0.291, Loss test: 0.352
+Adding run metadata for epoch:40
+Epoch: 40, Accuracy: 0.873, Loss train: 0.280, Loss test: 0.345
+Adding run metadata for epoch:45
+Epoch: 45, Accuracy: 0.878, Loss train: 0.273, Loss test: 0.343
+Adding run metadata for epoch:50
+Epoch: 50, Accuracy: 0.880, Loss train: 0.263, Loss test: 0.337
+Adding run metadata for epoch:55
+Epoch: 55, Accuracy: 0.880, Loss train: 0.256, Loss test: 0.332
+Adding run metadata for epoch:60
+Epoch: 60, Accuracy: 0.882, Loss train: 0.249, Loss test: 0.331
+Adding run metadata for epoch:65
+Epoch: 65, Accuracy: 0.883, Loss train: 0.246, Loss test: 0.330
+Adding run metadata for epoch:70
+Epoch: 70, Accuracy: 0.883, Loss train: 0.236, Loss test: 0.327
+Adding run metadata for epoch:75
+Epoch: 75, Accuracy: 0.886, Loss train: 0.230, Loss test: 0.324
+Adding run metadata for epoch:80
+Epoch: 80, Accuracy: 0.886, Loss train: 0.226, Loss test: 0.322
+Adding run metadata for epoch:85
+Epoch: 85, Accuracy: 0.887, Loss train: 0.219, Loss test: 0.322
+Adding run metadata for epoch:90
+Epoch: 90, Accuracy: 0.888, Loss train: 0.215, Loss test: 0.321
+Adding run metadata for epoch:95
+Epoch: 95, Accuracy: 0.888, Loss train: 0.212, Loss test: 0.321
+Adding run metadata for epoch:100
+Epoch: 100, Accuracy: 0.887, Loss train: 0.206, Loss test: 0.320
+Adding run metadata for epoch:105
+Epoch: 105, Accuracy: 0.890, Loss train: 0.202, Loss test: 0.318
+Adding run metadata for epoch:110
+Epoch: 110, Accuracy: 0.890, Loss train: 0.199, Loss test: 0.317
+Adding run metadata for epoch:115
+Epoch: 115, Accuracy: 0.891, Loss train: 0.194, Loss test: 0.315
+Adding run metadata for epoch:120
+Epoch: 120, Accuracy: 0.889, Loss train: 0.190, Loss test: 0.315
+Adding run metadata for epoch:125
+Epoch: 125, Accuracy: 0.890, Loss train: 0.189, Loss test: 0.317
+Adding run metadata for epoch:130
+Epoch: 130, Accuracy: 0.894, Loss train: 0.180, Loss test: 0.312
+Adding run metadata for epoch:135
+Epoch: 135, Accuracy: 0.894, Loss train: 0.181, Loss test: 0.313
+Adding run metadata for epoch:140
+Epoch: 140, Accuracy: 0.893, Loss train: 0.177, Loss test: 0.317
+Adding run metadata for epoch:145
+Epoch: 145, Accuracy: 0.892, Loss train: 0.172, Loss test: 0.312
+Adding run metadata for epoch:150
+Epoch: 150, Accuracy: 0.891, Loss train: 0.169, Loss test: 0.315
+Adding run metadata for epoch:155
+Epoch: 155, Accuracy: 0.893, Loss train: 0.170, Loss test: 0.321
+Adding run metadata for epoch:160
+Epoch: 160, Accuracy: 0.893, Loss train: 0.162, Loss test: 0.316
+Adding run metadata for epoch:165
+Epoch: 165, Accuracy: 0.893, Loss train: 0.163, Loss test: 0.318
+Adding run metadata for epoch:170
+Epoch: 170, Accuracy: 0.893, Loss train: 0.159, Loss test: 0.316
+Adding run metadata for epoch:175
+Epoch: 175, Accuracy: 0.893, Loss train: 0.155, Loss test: 0.314
+Adding run metadata for epoch:180
+Epoch: 180, Accuracy: 0.895, Loss train: 0.156, Loss test: 0.317
+Adding run metadata for epoch:185
+Epoch: 185, Accuracy: 0.896, Loss train: 0.151, Loss test: 0.318
+Adding run metadata for epoch:190
+Epoch: 190, Accuracy: 0.895, Loss train: 0.150, Loss test: 0.317
+Adding run metadata for epoch:195
+Epoch: 195, Accuracy: 0.898, Loss train: 0.143, Loss test: 0.316
+Adding run metadata for epoch:200
+Epoch: 200, Accuracy: 0.896, Loss train: 0.141, Loss test: 0.319
+Adding run metadata for epoch:205
+Epoch: 205, Accuracy: 0.897, Loss train: 0.140, Loss test: 0.321
+Adding run metadata for epoch:210
+Epoch: 210, Accuracy: 0.896, Loss train: 0.142, Loss test: 0.324
+Adding run metadata for epoch:215
+Epoch: 215, Accuracy: 0.896, Loss train: 0.137, Loss test: 0.319
+Adding run metadata for epoch:220
+Epoch: 220, Accuracy: 0.899, Loss train: 0.133, Loss test: 0.317
+Adding run metadata for epoch:225
+Epoch: 225, Accuracy: 0.894, Loss train: 0.131, Loss test: 0.323
+Adding run metadata for epoch:230
+Epoch: 230, Accuracy: 0.896, Loss train: 0.131, Loss test: 0.329
+Adding run metadata for epoch:235
+Epoch: 235, Accuracy: 0.899, Loss train: 0.128, Loss test: 0.326
+Adding run metadata for epoch:240
+Epoch: 240, Accuracy: 0.897, Loss train: 0.128, Loss test: 0.326
+Adding run metadata for epoch:245
+Epoch: 245, Accuracy: 0.896, Loss train: 0.124, Loss test: 0.324
+Adding run metadata for epoch:250
+Epoch: 250, Accuracy: 0.896, Loss train: 0.122, Loss test: 0.322
+Adding run metadata for epoch:255
+Epoch: 255, Accuracy: 0.899, Loss train: 0.119, Loss test: 0.329
+Adding run metadata for epoch:260
+Epoch: 260, Accuracy: 0.896, Loss train: 0.119, Loss test: 0.328
+Adding run metadata for epoch:265
+Epoch: 265, Accuracy: 0.899, Loss train: 0.116, Loss test: 0.327
+Adding run metadata for epoch:270
+Epoch: 270, Accuracy: 0.898, Loss train: 0.113, Loss test: 0.334
+Adding run metadata for epoch:275
+Epoch: 275, Accuracy: 0.898, Loss train: 0.114, Loss test: 0.332
+Adding run metadata for epoch:280
+Epoch: 280, Accuracy: 0.897, Loss train: 0.111, Loss test: 0.330
+Adding run metadata for epoch:285
+Epoch: 285, Accuracy: 0.897, Loss train: 0.107, Loss test: 0.333
+Adding run metadata for epoch:290
+Epoch: 290, Accuracy: 0.898, Loss train: 0.108, Loss test: 0.333
+Adding run metadata for epoch:295
+Epoch: 295, Accuracy: 0.900, Loss train: 0.107, Loss test: 0.330
+Adding run metadata for epoch:300
+Epoch: 300, Accuracy: 0.897, Loss train: 0.107, Loss test: 0.341
+Training for 300 epochs took 391.648 sec.
