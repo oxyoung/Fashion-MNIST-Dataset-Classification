@@ -11,4 +11,4 @@ Besides, the following addtional tasks are also done:
 1. Compare three gradient methods. (Adam, GradientDescent, Momentum)
 2. Compare two regularization methods. (Drop out and Batch Normalization)
 
-
+## Get Started
