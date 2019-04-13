@@ -184,8 +184,8 @@ class TrainingModel(object):
                     else:
                         sess.run(training, feed_dict={x_sample: batch_x_sample, y_sample: batch_y_sample})
                 epoch = int(global_step_value / num_minibatch) + 1
-                # Start learning process and writer summary every 50 epochs
-                if epoch % 5 == 0 or epoch == max_epochs:
+                # Start learning process and writer summary every 30 epochs
+                if epoch % 30 == 0 or epoch == max_epochs:
                     if FLAGS.REGULARIZATION == 'drop out':
                         loss_train = sess.run(cross_entropy, feed_dict={x_sample: train_data,
                                                                         y_sample: train_label, keep_prob: 1})
