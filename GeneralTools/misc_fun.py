@@ -44,5 +44,5 @@ flags.DEFINE_string(
 # Optimizer options: GradientDescent, Adam, Momentum
 flags.DEFINE_string('OPTIMIZER', 'Adam', 'The default gradient descent optimizer.')
 # Regularization method options: batch, drop out, None
-flags.DEFINE_string('REGULARIZATION', 'batch', 'The default regularization method.')
+flags.DEFINE_string('REGULARIZATION', 'drop out', 'The default regularization method.')
 flags.DEFINE_bool('VERBOSE', True, 'Define whether to print more info during training and test.')
