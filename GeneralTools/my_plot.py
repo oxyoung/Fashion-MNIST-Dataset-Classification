@@ -2,10 +2,10 @@ import xlrd
 import os
 import matplotlib.pyplot as plt
 from GeneralTools.misc_fun import FLAGS
-
+FLAGS.EXCEL_FOLDER = 'C:/Users/oxyoung/Desktop/Project1/Plots/traning_data_excel/'
 def plot_dif_regularization_acc():
-    Excel_folder =  'C:/Users/oxyoung/Desktop/Project1/Plots/traning_data_excel'
-    file_location1 = os.path.join(Excel_folder, "Baseline.xlsx")
+    Excel_folder = FLAGS.EXCEL_FOLDER
+    file_location1 = os.path.join(Excel_folder, "Adam.xlsx")
     file_location2 = os.path.join(Excel_folder, "batch.xlsx")
     file_location3 = os.path.join(Excel_folder, "dropout.xlsx")
     workbook1 = xlrd.open_workbook(file_location1)
@@ -32,7 +32,7 @@ def plot_dif_regularization_acc():
 
 def plot_dif_regularization_loss():
     Excel_folder = FLAGS.EXCEL_FOLDER
-    file_location1 = os.path.join(Excel_folder, "Baseline.xlsx")
+    file_location1 = os.path.join(Excel_folder, "Adam.xlsx")
     file_location2 = os.path.join(Excel_folder, "batch.xlsx")
     file_location3 = os.path.join(Excel_folder, "dropout.xlsx")
     workbook1 = xlrd.open_workbook(file_location1)
@@ -60,7 +60,7 @@ def plot_dif_regularization_loss():
 def plot_dif_optimizer():
     Excel_folder = FLAGS.EXCEL_FOLDER
     file_location1 = os.path.join(Excel_folder, "GD.xlsx")
-    file_location2 = os.path.join(Excel_folder, "Baseline.xlsx")
+    file_location2 = os.path.join(Excel_folder, "Adam.xlsx")
     file_location3 = os.path.join(Excel_folder, "Momentum.xlsx")
     workbook1 = xlrd.open_workbook(file_location1)
     workbook2 = xlrd.open_workbook(file_location2)
