@@ -19,10 +19,10 @@ flags.DEFINE_string('CUDA_VERSION', '9.0', 'Version of CUDA for the current proj
 flags.DEFINE_string('CUDNN_VERSION', '7.3.1', 'Version of CuDNN for the current project.')
 
 # working directory info
-flags.DEFINE_string('DEFAULT_IN', 'C:/Users/oxyoung/Desktop/Project1/data/fashion', 'Default input folder.')
-flags.DEFINE_string('DEFAULT_OUT', 'C:/Users/oxyoung/Desktop/Project1/Results/FashionMNIST', 'Default output folder.')
+flags.DEFINE_string('DEFAULT_IN', 'C:/Users/oxyoung/Desktop/Project-1-AI-for-Mechatronics-MCEN90048--master/data/fashion', 'Default input folder.')
+flags.DEFINE_string('DEFAULT_OUT', 'C:/Users/oxyoung/Desktop/Project-1-AI-for-Mechatronics-MCEN90048--master/Results/FashionMNIST', 'Default output folder.')
 flags.DEFINE_string(
-    'DEFAULT_DOWNLOAD', 'C:/Users/Administrator/Desktop/Project1/data/fashion',
+    'DEFAULT_DOWNLOAD', 'C:/Users/oxyoung/Desktop/Project-1-AI-for-Mechatronics-MCEN90048--master/data/fashion',
     'Default folder for downloading large datasets.')
 flags.DEFINE_string(
     'SUMMARY_FOLDER', os.path.join(FLAGS.DEFAULT_OUT, 'MLPBaseline', 'Adam_event_01'),
@@ -40,7 +40,7 @@ flags.DEFINE_string(
     'VISUALIZATION_FOLDER', os.path.join(FLAGS.DEFAULT_OUT, 'DataVisual'),
     'Default folder for visualization files.')
 flags.DEFINE_string(
-    'EXCEL_FOLDER', 'C:/Users/oxyoung/Desktop/Project1/Plots/traning_data_excel/',
+    'EXCEL_FOLDER', 'C:/Users/oxyoung/Desktop/Project-1-AI-for-Mechatronics-MCEN90048--master/Plots/traning_data_excel/',
     'Default folder for Excel Data.')
 
 # model hyper-parameters
