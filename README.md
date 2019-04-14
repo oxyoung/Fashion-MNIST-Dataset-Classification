@@ -20,3 +20,8 @@ especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
 which results in the high accuracy of the model.)
 3. Open jupyter Notebook in ./NoteBooks/FashionMNIST.ipynb and modify the system path in first cell.
 4. Run cells in jupyter Notebook to test the model and see the corresponding result.
+
+## Note
+1. The analysis of the results and relevant plots are shown in jupyter Notebook.
+2. The results of pretrained model are saved in ~/Results/FashionMNIST folder. Running the cells in jupyter notebook will overwrite parts of the results.
+3. The relevant figures are saved in ~/Plot/images folder and excel data which are used to generate the figures are saved in ~/Plots/traning_data_excel.
