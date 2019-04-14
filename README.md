@@ -13,3 +13,8 @@ Besides, the following addtional tasks are also done:
 2. Compare two regularization methods. (Drop out and Batch Normalization)
 
 ## Get Started
+1. Download or clone the repository to a local folder.
+2. Open the repository and modify the corresponding folder path in ./GeneralTools/misc_fun.py and relevant system parameters,
+especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
+3. Open jupyter Notebook in ./NoteBooks/FashionMNIST.ipynb and modify the system path in first line.
+4. Run cells in jupyter Notebook to test the model and see the corresponding result.
