@@ -1,4 +1,5 @@
 # Project-1-AI-for-Mechatronics-MCEN90048-
+Qitong Yang 889222
 ## Introduction
 This repository is about the first project **Let us be a Fashion Critic** of AI for Mechatronics (MCEN90048).
 The finished tasks are as follow:
