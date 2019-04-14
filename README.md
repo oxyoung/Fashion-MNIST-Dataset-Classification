@@ -1,5 +1,4 @@
 # Project-1-AI-for-Mechatronics-MCEN90048-
-Qitong Yang 889222
 ## Introduction
 This repository is about the first project **Let us be a Fashion Critic** of AI for Mechatronics (MCEN90048).
 The finished tasks are as follow:
@@ -25,3 +24,6 @@ which results in the high accuracy of the model.)
 1. The analysis of the results and relevant plots are shown in jupyter Notebook.
 2. The results of pretrained model are saved in ~/Results/FashionMNIST folder. Running the cells in jupyter notebook will overwrite parts of the results.
 3. The relevant figures are saved in ~/Plot/images folder and excel data which are used to generate the figures are saved in ~/Plots/traning_data_excel.
+
+## Author
+Qitong Yang 889222 University of Melbourne
