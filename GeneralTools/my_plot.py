@@ -2,7 +2,6 @@ import xlrd
 import os
 import matplotlib.pyplot as plt
 from GeneralTools.misc_fun import FLAGS
-FLAGS.EXCEL_FOLDER = 'C:/Users/oxyoung/Desktop/Project1/Plots/traning_data_excel/'
 def plot_dif_regularization_acc():
     Excel_folder = FLAGS.EXCEL_FOLDER
     file_location1 = os.path.join(Excel_folder, "Adam.xlsx")
