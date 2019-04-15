@@ -14,18 +14,29 @@ Besides, the following addtional tasks are also done:
 Make sure the following packages are installed:
 1. imageio 2. numpy 3. matplotlib 4. tensorflow
 ## Get Started
-1. Download or clone the repository to a local folder.
-2. Open the repository and modify the corresponding folder path in **./GeneralTools/misc_fun.py** and other relevant system parameters,
+Firstly, download or clone the repository to a local folder.
+**Visualization Result**
+1. Open Anaconda Prompt, run the following code **tensorboard --logdir=path**. (Path is the path to the visualization checkpoint file,
+for example **C:\Users\Administrator\Desktop\Project-1-AI-for-Mechatronics-MCEN90048--master\Results\FashionMNIST\DataVisual**)
+2. Open http://localhost:6006 and the results are demostrated in **PROJECTOR**.
+**Monitor training process**
+1. Open Anaconda Prompt, run the following code **tensorboard --logdir=path**. (Path is the path to the visualization checkpoint file,
+for example **C:\Users\Administrator\Desktop\Project-1-AI-for-Mechatronics-MCEN90048--master\Results\FashionMNIST\MLPBaseline\Adam_event_01**
+2. Open http://localhost:6006 and see the results.
+**Run Jupyter Notebook**
+1. Open the repository and modify the corresponding folder path in **./GeneralTools/misc_fun.py** and other relevant system parameters,
 especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
 (**Note: DEFAULT_IN folder should be set to path like ~/data/fashion, or it will automatically download the original MNIST dataset 
 which results in the incredible high accuracy of the model.)**
-3. Open jupyter Notebook in **./NoteBooks/FashionMNIST.ipynb** and modify the system path in first cell.
-4. Run cells in jupyter Notebook to test the model and see the corresponding result.
+2. Open jupyter Notebook in **./NoteBooks/FashionMNIST.ipynb** and modify the system path in first cell.
+3. Run cells in jupyter Notebook to test the model and see the corresponding result.
 
 ## Note
 1. The analysis of the results and relevant plots are shown in jupyter Notebook.
-2. The results of pretrained model are saved in ~/Results/FashionMNIST folder. Running the cells in jupyter notebook will overwrite parts of the results.
-3. The relevant figures are saved in ~/Plot/images folder and excel data which are used to generate the figures are saved in ~/Plots/traning_data_excel.
+2. The results of pretrained model are saved in ~/Results/FashionMNIST folder.
+3. Running the cells in jupyter notebook will overwrite parts of the results. If the orginal results are mis-overwritten, please
+redownload the results from github.
+4. The relevant figures are saved in ~/Plot/images folder and excel data which are used to generate the figures are saved in ~/Plots/traning_data_excel.
 
 ## Author
 Qitong Yang 889222 University of Melbourne
