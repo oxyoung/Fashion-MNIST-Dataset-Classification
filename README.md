@@ -15,14 +15,17 @@ Make sure the following packages are installed:
 1. imageio 2. numpy 3. matplotlib 4. tensorflow
 ## Get Started
 Firstly, download or clone the repository to a local folder.
+
 **Visualization Result**
 1. Open Anaconda Prompt, run the following code **tensorboard --logdir=path**. (Path is the path to the visualization checkpoint file,
 for example **C:\Users\Administrator\Desktop\Project-1-AI-for-Mechatronics-MCEN90048--master\Results\FashionMNIST\DataVisual**)
 2. Open http://localhost:6006 and the results are demostrated in **PROJECTOR**.
+
 **Monitor training process**
 1. Open Anaconda Prompt, run the following code **tensorboard --logdir=path**. (Path is the path to the visualization checkpoint file,
 for example **C:\Users\Administrator\Desktop\Project-1-AI-for-Mechatronics-MCEN90048--master\Results\FashionMNIST\MLPBaseline\Adam_event_01**
 2. Open http://localhost:6006 and see the results.
+
 **Run Jupyter Notebook**
 1. Open the repository and modify the corresponding folder path in **./GeneralTools/misc_fun.py** and other relevant system parameters,
 especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
