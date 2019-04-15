@@ -10,14 +10,16 @@ The finished tasks are as follow:
 Besides, the following addtional tasks are also done:
 1. Compare three gradient methods. (Adam, GradientDescent, Momentum)
 2. Compare two regularization methods. (Drop out and Batch Normalization)
-
+## Prerequisites
+Make sure the following packages are installed:
+1. imageio 2. numpy 3. matplotlib 4. tensorflow
 ## Get Started
 1. Download or clone the repository to a local folder.
-2. Open the repository and modify the corresponding folder path in ./GeneralTools/misc_fun.py and relevant system parameters,
+2. Open the repository and modify the corresponding folder path in **./GeneralTools/misc_fun.py** and other relevant system parameters,
 especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
-(Note: DEFAULT_IN folder should be set to path like ~/data/fashion, or it will automatically download the original MNIST dataset 
-which results in the high accuracy of the model.)
-3. Open jupyter Notebook in ./NoteBooks/FashionMNIST.ipynb and modify the system path in first cell.
+(**Note: DEFAULT_IN folder should be set to path like ~/data/fashion, or it will automatically download the original MNIST dataset 
+which results in the incredible high accuracy of the model.)**
+3. Open jupyter Notebook in **./NoteBooks/FashionMNIST.ipynb** and modify the system path in first cell.
 4. Run cells in jupyter Notebook to test the model and see the corresponding result.
 
 ## Note
