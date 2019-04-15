@@ -35,8 +35,8 @@ for example, **C:\Users\Administrator\Desktop\Project-1-AI-for-Mechatronics-MCEN
 especially DEFAULT_IN, DEFAULT_OUT, DEFAULT_DOWNLOAD and EXCEL_FOLDER.
 (**Note: DEFAULT_IN folder should be set to path like ~/data/fashion, or it will automatically download the original MNIST dataset 
 which results in the incredible high accuracy of the model.)**
-2. Open jupyter Notebook in **./NoteBooks/FashionMNIST.ipynb** and modify the system path in first cell.
-3. Run cells in jupyter Notebook to test the model and see the corresponding result.
+2. Open jupyter Notebook in **./NoteBooks/FashionMNIST.ipynb** and modify the system path in the first cell.
+3. Run cells in jupyter Notebook to test the model and see the corresponding results.
 
 ## Note
 1. The analysis of the results and relevant plots are shown in jupyter Notebook.
