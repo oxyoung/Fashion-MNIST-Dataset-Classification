@@ -40,10 +40,10 @@ which results in the incredible high accuracy of the model.)**
 
 ## Note
 1. The analysis of the results and relevant plots are shown in jupyter Notebook.
-2. The results of pretrained model are saved in ~/Results/FashionMNIST folder.
+2. The results of pretrained model are saved in **~/Results/FashionMNIST folder**.
 3. Running the cells in jupyter notebook will overwrite parts of the results. If the original results are mis-overwritten, please
 redownload the results from github.
-4. The relevant figures are saved in ~/Plot/images folder and excel data which are used to generate the figures are saved in ~/Plots/traning_data_excel.
+4. The relevant figures are saved in **~/Plot/images** folder and excel data which are used to generate the figures are saved in **~/Plots/traning_data_excel**.
 
 ## Author
 Qitong Yang 889222 University of Melbourne
