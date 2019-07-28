@@ -262,8 +262,6 @@ class TrainingModel(object):
     def visualization(self):
         """ This function defines the visualization process. The folder saving visualization is determined by
         VISUALIZATION_FOLDER, which can be altered in misc_fun.py file.
-        The code is modified based on richardwth/ai_for_mechatronics/TensorFlow_basics_02_session_and_input.ipynb
-        visualization section
         """
         fashion_data = input_data.read_data_sets(FLAGS.DEFAULT_IN, one_hot=True)
         graph = tf.Graph()
