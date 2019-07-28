@@ -1,4 +1,4 @@
-# Project-1-AI-for-Mechatronics-MCEN90048-
+# Basic Neural Network Model for Fashion MNIST Dataset Classification
 ## Introduction
 This repository is about the first project **Let us be a Fashion Critic** of AI for Mechatronics (MCEN90048).
 The finished tasks are as follow:
