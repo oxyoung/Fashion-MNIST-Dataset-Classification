@@ -46,4 +46,4 @@ redownload the results from github.
 4. The relevant figures are saved in **~/Plot/images** folder and excel data which are used to generate the figures are saved in **~/Plots/traning_data_excel**.
 
 ## Author
-Qitong Yang 889222 University of Melbourne
+Qitong Yang University of Melbourne
